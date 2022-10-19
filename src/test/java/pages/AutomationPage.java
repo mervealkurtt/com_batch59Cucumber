@@ -17,78 +17,78 @@ public class AutomationPage {
     @FindBy(xpath = "//input[@id='email_create']")
     public WebElement emailTextBox;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//button[@id='SubmitCreate']")
     public WebElement createAccountButton;
 
-    @FindBy(xpath = "//div[@class='radio-inline']")
+    @FindBy(xpath = "//div[@id='uniform-id_gender2']")
     public WebElement gender;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='firstname']")
     public WebElement firtName;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='lastname']")
     public WebElement lastName;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='email']")
     public WebElement email;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='passwd']")
     public WebElement password;
 
     @FindBy(xpath = "//input[@id='email_create']")
     public WebElement ddmDay;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//select[@id='months']")
     public WebElement ddmMonth;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//select[@id='years']")
     public WebElement ddmYear;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='firstname']")
     public WebElement firstName2;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='lastname']")
     public WebElement lastName2;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='company']")
     public WebElement company;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='address1']")
     public WebElement address1;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='address2']")
     public WebElement address2;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='city']")
     public WebElement city;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//select[@id='id_state']")
     public WebElement ddmState;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='postcode']")
     public WebElement zip;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//select[@id='id_country']")
     public WebElement ddmCountry;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//textarea[@id='other']")
     public WebElement info;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='phone']")
     public WebElement homePhone;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='phone_mobile']")
     public WebElement mobilePhone;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//input[@id='alias']")
     public WebElement myAddress;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//button[@id='submitAccount']")
     public WebElement registerButton;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//*[text()='Welcome to your account. Here you can manage all of your personal information and orders.']")
     public WebElement positiveResultText;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//*[text()='Invalid email address.']")
     public WebElement negativeResultText;
 }
