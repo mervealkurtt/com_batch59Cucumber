@@ -69,8 +69,7 @@ public class AutomationStepDefinitions {
                 .sendKeys(Keys.TAB)
                 .sendKeys(faker.phoneNumber().cellPhone())
                 .sendKeys(Keys.TAB)
-                .sendKeys("ALSK")
-                .perform();
+                .sendKeys("ALSK").perform();
     }
 
     @Given("user Register butonuna basar")

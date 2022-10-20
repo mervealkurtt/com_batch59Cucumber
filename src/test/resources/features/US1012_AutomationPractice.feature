@@ -11,4 +11,3 @@ Feature: US1012 Kullanici register yapabilmeli
     And user Register butonuna basar
     And hesap olustugunu dogrular
     And kullanici 60 sn bekler
-    And sayfayi kapatir

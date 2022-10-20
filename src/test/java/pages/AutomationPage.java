@@ -24,7 +24,7 @@ public class AutomationPage {
     public WebElement gender;
 
     @FindBy(xpath = "//input[@id='firstname']")
-    public WebElement firtName;
+    public WebElement firstName;
 
     @FindBy(xpath = "//input[@id='lastname']")
     public WebElement lastName;
@@ -35,7 +35,7 @@ public class AutomationPage {
     @FindBy(xpath = "//input[@id='passwd']")
     public WebElement password;
 
-    @FindBy(xpath = "//input[@id='email_create']")
+    @FindBy(xpath = "//select[@id='days']")
     public WebElement ddmDay;
 
     @FindBy(xpath = "//select[@id='months']")
