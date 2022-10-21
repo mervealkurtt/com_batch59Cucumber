@@ -31,6 +31,6 @@ public class Hooks {
         if (scenario.isFailed()){
             scenario.attach(screenshoot, "image/png", "screenshoots");
         }
-        Driver.closeDriver();
+        //Driver.closeDriver();
     }
 }
